@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>楼中楼 | inFloor</title>
-
+    <link href="css/style.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,7 +23,7 @@
 		<div class="col-md-12 column">
 			<div class="page-header">
 				<h1>
-					<small>楼中楼<span>{inFloor}</span><sup>v1.7</sup></small>
+					<small><i class="fa fa-edit fa-lg"></i>楼中楼<span>{inFloor}</span><sup>v1.7</sup></small>
 				</h1>
 			</div>
 			<nav class="navbar navbar-default" role="navigation">
@@ -32,28 +33,28 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-						<a href="#">首页</a>
+						<a href="#"><i class="fa fa-home"></i>首页</a>
 						</li>
 						<li>
-							 <a href="http://yileit.com/download/">下载</a>
+							 <a href="/download/"><i class="fa fa-download"></i>下载</a>
 						</li>
 						<li>
-							 <a href="http://yileit.com/document/">文档</a>
+							 <a href="/document/"><i class="fa fa-question-circle"></i>文档</a>
 						</li>
 						<li>
-							 <a href="http://yileit.com/service/">服务</a>
+							 <a href="/service/"><i class="fa fa-tasks"></i>服务</a>
 						</li>
 						<li>
-							 <a href="http://yileit.com/about/">关于</a>
+							 <a href="/about/"><i class="fa fa-user"></i>关于</a>
 						</li>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=525901794&site=qq&menu=yes">QQ:525901794</a>
+							 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=525901794&site=qq&menu=yes"><i class="fa fa-qq" aria-hidden="true"></i>:525901794</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-			<div class="carousel slide" id="carousel-901866">
+			<div class="carousel slide" id="carousel-901866" style="max-height: 580px;">
 				<ol class="carousel-indicators">
 					<li data-slide-to="0" data-target="#carousel-901866" class="active">
 					</li>
@@ -66,11 +67,11 @@
 					<li data-slide-to="4" data-target="#carousel-901866">
 					</li>
 				</ol>
-				<div class="carousel-inner">
+				<div class="carousel-inner" style="max-height: 580px;">
 					<div class="item">
 						<img alt="" src="img/slide1.jpg" />
 						<div class="carousel-caption">
-							<h4>
+							<h4 style="display:inline; background-color: #000000; opacity: 0.6">
 								楼中楼V1.7升级发布
 							</h4>
 						</div>
@@ -78,7 +79,7 @@
 					<div class="item">
 						<img alt="" src="img/forum.jpg" />
 						<div class="carousel-caption">
-							<h4>
+							<h4 style="display:inline; background-color: #000000; opacity: 0.6">
 								默认风格首页演示
 							</h4>
 						</div>
@@ -86,7 +87,7 @@
 					<div class="item active">
 						<img alt="" src="img/weibo.jpg" />
 						<div class="carousel-caption">
-							<h4>
+							<h4 style="display:inline; background-color: #000000; opacity: 0.6">
 								仿微博风格首页演示
 							</h4>
 						</div>
@@ -94,35 +95,34 @@
 					<div class="item">
 						<img alt="" src="img/vest.jpg" />
 						<div class="carousel-caption">
-							<h3 style="display:inline; background-color: #000000; opacity: 0.4">
+							<h4 style="display:inline; background-color: #000000; opacity: 0.6">
 								马甲切换，便捷回复
-							</h3>
+							</h4>
 						</div>
 					</div>
 					<div class="item">
 						<img alt="" src="img/hotkey.jpg" />
 						<div class="carousel-caption">
-							<h4>
+							<h4 style="display:inline; background-color: #000000; opacity: 0.6">
 								网站全局快捷键支持
 							</h4>
 						</div>
 					</div>
 				</div> <a class="left carousel-control" href="#carousel-901866" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-901866" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
+			</div><br />
 			<blockquote>
 				<p>
 					系统概述
 				</p>
 			</blockquote>
-			<p>
-				 楼中楼是一个基于phpwind9（PW9）二次开发的类贴吧交流系统，在PW9优秀特性的基础上进一步优化，去除鸡肋的功能，人性化核心功能。楼中楼适用于以兴趣话题凝聚用户的网站，属于轻社交网站。没有传统论坛的臃肿形态，也不与微博等大型社交网站同质化。我们的努力，为了让站长全身心投入网站的核心“运营层”，在前期用心做好网站内容（这将影响社交网站未来的发展方向），并且维系好用户之间的关系，这才是一个轻社交网站的重中之重。
+			<p style="text-indent: 2em;">楼中楼是一个基于<a href="http://www.phpwind.com/phpwind9" target="_blank">phpwind9</a>（PW9）二次开发的类贴吧交流系统，在PW9优秀特性的基础上进一步优化，去除鸡肋的功能，人性化核心功能。楼中楼适用于以兴趣话题凝聚用户的网站，属于轻社交网站。没有传统论坛的臃肿形态，也不与微博等大型社交网站同质化。我们的努力，为了让站长全身心投入网站的核心“运营层”，在前期用心做好网站内容（这将影响社交网站未来的发展方向），并且维系好用户之间的关系，这才是一个轻社交网站的重中之重。</p>
 
-还值得一提，百度贴吧可以成功不仅是因为抱大腿，而是它真的很优秀，没有传统论坛的版块选择，各种繁琐的操作，两个页面足矣（列表页与帖子页）。如果你可以把一个吧做起来，说明你对社交网站的运营已经掌握了很多，但是贴吧毕竟是百度的产品，你做起来一个吧更多的是为百度做了奉献，自己没有得到应有的回报，所以独立做类贴吧是有必要的，就好像很多人做独立博客一样。楼中楼还可以用来作为子系统，给网站的用户提供一个可以交流的地方，全方位增加用户粘性。社交网站对于用户基数的增加是非常迅速的，一旦用户群体庞大了，扩展其他的垂直网站就非常容易了，腾讯的山寨之路就是一个很好的例子。
+<p style="text-indent: 2em;">还值得一提，百度贴吧可以成功不仅是因为抱大腿，而是它真的很优秀，没有传统论坛的版块选择，各种繁琐的操作，两个页面足矣（列表页与帖子页）。如果你可以把一个吧做起来，说明你对社交网站的运营已经掌握了很多，但是贴吧毕竟是百度的产品，你做起来一个吧更多的是为百度做了奉献，自己没有得到应有的回报，所以独立做类贴吧是有必要的，就好像很多人做独立博客一样。楼中楼还可以用来作为子系统，给网站的用户提供一个可以交流的地方，全方位增加用户粘性。社交网站对于用户基数的增加是非常迅速的，一旦用户群体庞大了，扩展其他的垂直网站就非常容易了，腾讯的山寨之路就是一个很好的例子。</p>
 
-下载地址：http://yileit.com/download   演示地址：http://demo.yileit.com
+<p style="text-indent: 2em;">下载地址：<a href="http://yileit.com/download" target="_blank">http://yileit.com/download</a>   演示地址：<a href="http://demo.yileit.com" target="_blank">http://demo.yileit.com</a>
 			</p>
 		</div>
-	</div>
+	</div><br />
 			<blockquote>
 				<p>
 					系统特色
@@ -130,25 +130,25 @@
 			</blockquote>
 	<div class="row clearfix">
 		<div class="col-md-4 column">
-			<h2>
-				<span>WindID-用户中心</span>
-			</h2>
+			<h3>
+				<i class="fa fa-users"></i>WindID-用户中心
+			</h3>
 			<p>
 				轻量级数据转换中心，统一管理用户数据，用于多系统之间的用户数据打通，方便多程序间的用户整合。
 			</p>
 		</div>
 		<div class="col-md-4 column">
-			<h2>
-				<span>账号通-社交登陆</span>
-			</h2>
+			<h3>
+				<i class="fa fa-weibo"></i>账号通-社交登陆
+			</h3>
 			<p>
 				<span>集成QQ，淘宝，新浪微博，支付宝一键登陆，绑定和解绑,还可以自定义添加登陆接口。</span>
 			</p>
 		</div>
 		<div class="col-md-4 column">
-			<h2>
-				<span>马甲切换-多用户</span>
-			</h2>
+			<h3>
+				<i class="fa fa-exchange"></i>马甲切换-多用户
+			</h3>
 			<p>
 				<span>提供给用户多帐号绑定功能，用户拥有多个帐号，可以选择一个帐号作为主账号，其他帐号则通过和该帐号绑定。</span>
 			</p>
@@ -156,25 +156,25 @@
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-4 column">
-			<h2>
-				采集数据
-			</h2>
+			<h3>
+				<i class="fa fa-ticket"></i>采集数据
+			</h3>
 			<p>
 				<span>网站前期添加内容的利器，火车头软件结合马甲切换让添加内容更加容易。学会火车头后将终生受益。</span>
 			</p>
 		</div>
 		<div class="col-md-4 column">
-			<h2>
-				手机浏览
-			</h2>
+			<h3>
+				<i class="fa fa-mobile"></i>手机浏览
+			</h3>
 			<p>
 				基于jquery mobile框架建设的手机版，兼容所有移动设备，用户体验与速度都尽如人意。
 			</p>
 		</div>
 		<div class="col-md-4 column">
-			<h2>
-				快捷键操作
-			</h2>
+			<h3>
+				<i class="fa fa-keyboard-o"></i>快捷键操作
+			</h3>
 			<p>
 				快捷键方便用户使用网站，使网站更人性化，站长可根据需求自定义快捷键，并与浏览器快捷键不冲突。
 			</p>
@@ -182,51 +182,51 @@
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-4 column">
-			<h2>
-				可视化管理-DIY
-			</h2>
+			<h3>
+				<i class="fa fa-cutlery"></i>可视化管理-DIY
+			</h3>
 			<p>
 				无需任何代码基础，直接在前台则可以进行数据调用，模块拖拽，帖子与用户的管理。
 			</p>
 		</div>
 		<div class="col-md-4 column">
-			<h2>
-				延时加载-速度快
-			</h2>
+			<h3>
+				<i class="fa fa-clock-o"></i>延时加载-速度快
+			</h3>
 			<p>
 				在页面多数据处理上，如图片的显示，采用延时和按需加载的方式处理内容显示，大幅度提升阅读体验。
 			</p>
 		</div>
 		<div class="col-md-4 column">
-			<h2>
-				云文件管理
-			</h2>
+			<h3>
+				<i class="fa fa-cloud"></i>云文件管理
+			</h3>
 			<p>
 				随时随地，获取网站的文件，或者上传新的文件，支持在线编辑保存，多种样式代码找色，真正的云办公。
 			</p>
 		</div>
-	</div>
+	</div><br />
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<blockquote>
 				版权声明
 			</blockquote>
-			<p>
+			<p style="text-indent: 2em;">
 				 该系统的内核为phpwind9，所以版权归phpwind所有，请不要修改版权，谢谢合作。
 			</p>
 		</div>
-	</div>
+	</div><br />
 	<div class="row clearfix">
         <div style="text-align:center;margin-bottom:20px;"><span style="font-size: 36px;font-family:SimHei">相信楼中楼已经足够吸引你，马上去体验吧</span></div>
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-6 column">
-			 <button type="button" class="btn btn-block btn-lg btn-info">按钮</button>
+			 <button type="button" class="btn btn-block btn-lg btn-info">进入下载页面</button>
 		</div>
 		<div class="col-md-6 column">
-			 <button type="button" class="btn btn-block btn-lg btn-success">按钮</button>
+			 <button type="button" class="btn btn-block btn-lg btn-success">体验演示Demo</button>
 		</div>
-	</div>
+	</div><br /><br /><br /><br />
 </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
