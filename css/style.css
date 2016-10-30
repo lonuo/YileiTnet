@@ -2,3 +2,7 @@ body{
 	background-image: url(../img/body_bg.png);
 	background-repeat: repeat;
 	}
+	
+.panel panel-default .panel-heading a:hover{
+	text-decoration:none;
+}
