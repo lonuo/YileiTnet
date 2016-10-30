@@ -3,6 +3,49 @@ body{
 	background-repeat: repeat;
 	}
 	
-.panel panel-default .panel-heading a:hover{
-	text-decoration:none;
+/*start-about*/	
+.entry-content .box {
+padding: 5px 0px 15px;
+color: #555;
+clear: both;
 }
+
+.entry-content .box .title {
+color: #21759b;
+border-bottom: 2px solid #76C3E6;
+margin-bottom: 10px;
+}
+
+.entry-content .box .title .fa{
+padding-right:3px;
+}
+
+.entry-content .box .title span {
+border-bottom: 2px solid #21759b;
+font-size: 21px;
+font-size:1.5rem;
+font-family:"microsoft yahei";
+display: inline-block;
+margin-bottom: -2px;
+text-align: center;
+padding: 5px 10px;
+}
+
+.entry-content .box p {
+line-height: 2em;
+text-indent: 2em;
+margin:0px;
+}
+/*end-about*/
+
+/*start-down*/
+.entry-content .download{margin:0 80px;margin-bottom:30px;padding:15px;padding-right:0px;background:#f6f9ff;color:#616161;}
+.entry-content .download h1{padding: 5px 10px;font-size:30px;margin:15px 0px 5px;}
+.entry-content .download div{padding:10px 5px;}
+.entry-content .download a{display:block;float:left;padding:0.4em 1em;background:#CFE1F1;	
+font-size:25px;text-align:center;color:#666;border-radius:3px;margin:8px;text-decoration: none;}
+.entry-content .download a b{padding-right:8px;}
+.entry-content .download a i{display:block;font-size:13px;font-style:normal;}
+.entry-content .download a:hover{background:#21759b;color:#fff;}
+.entry-content .download a:active{box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;}
+/*end-down*/
