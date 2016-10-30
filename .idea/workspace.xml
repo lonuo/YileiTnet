@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28615800-1cef-49a5-9c3b-53d0f4a47db7" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/document/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download/index.html" afterPath="$PROJECT_DIR$/download/index.html" />
     </list>
     <ignored path="YileiTnet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/download/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="105">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -270,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1477805241326</updated>
       <workItem from="1477805246348" duration="154000" />
-      <workItem from="1477805469713" duration="125000" />
+      <workItem from="1477805469713" duration="260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279000" />
+    <option name="totallyTimeSpent" value="414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1212" height="737" extended-state="0" />
@@ -375,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/download/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding />
         </state>
       </provider>
